@@ -1,0 +1,6 @@
+com\example\authapp\InputServlet.class
+com\example\authapp\LoginServlet.class
+com\example\authapp\dtos\User.class
+com\example\authapp\RegisterServlet.class
+com\example\authapp\LogoutServlet.class
+com\example\authapp\util\DatabaseUtil.class
