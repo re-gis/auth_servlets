@@ -17,8 +17,33 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>com.example.authapp.LogoutServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DepositServlet</servlet-name>
+        <servlet-class>com.example.authapp.DepositServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepositServlet</servlet-name>
+        <url-pattern>/deposit</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>WithdrawServlet</servlet-name>
+        <servlet-class>com.example.authapp.WithdrawServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.example.authapp.HomeServlet</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>WithdrawServlet</servlet-name>
+        <url-pattern>/withdraw</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>

@@ -12,6 +12,7 @@
       <input type="email" name="email" id="email" required /><br />
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required /><br />
+      <input type="number" id="age" name="age" required /><br />
       <input type="submit" value="Register" />
     </form>
     <% if (request.getParameter("error") != null) { %>

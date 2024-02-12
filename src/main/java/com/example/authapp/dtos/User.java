@@ -6,6 +6,26 @@ public class User {
     private String email;
     private String password;
 
+    public Double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
+    public String getCard_number() {
+        return card_number;
+    }
+
+    public void setCard_number(String card_number) {
+        this.card_number = card_number;
+    }
+
+    private Double balance;
+    private String card_number;
+
+
     public String getUsername() {
         return username;
     }
