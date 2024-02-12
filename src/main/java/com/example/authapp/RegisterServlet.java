@@ -32,6 +32,7 @@ public class RegisterServlet extends HttpServlet {
         }
     }
 
+
     private boolean registerUser(String username, String password, String email) {
         try (Connection connection = DatabaseUtil.getConnection();
                 PreparedStatement preparedStatement = connection
